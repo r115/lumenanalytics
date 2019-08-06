@@ -4,5 +4,16 @@
     "type": "library",
     "license": "MIT",
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LumenAnalytics\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "LumenAnalytics\\Tests\\": "tests/" }
+    }
 }
