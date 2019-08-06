@@ -1,0 +1,8 @@
+{
+    "name": "r115/lumenanalytics",
+    "description": "Google Analytics Wrapper for lumen based apps",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {}
+}
